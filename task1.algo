@@ -1,0 +1,24 @@
+ALGORITHM counter
+VAR
+sentense:string
+count:integer:=0
+words:intenger:=1
+voy=integer:=0
+i:integer:=0
+BEGIN
+read(sentense)
+    For i from 0 to sentense.length step=1
+      IF (sentense[i]!=" ")THEN
+        count+=1
+      elseIF (words[i]=" ") THEN
+        words+=1
+       else (voy[i]="a"or"A"or"e"or"E"or"o"or"O"or"u"or"U")THEN
+        voy+=1
+
+      END_IF
+    END_FOR  
+    
+
+   
+
+END
