@@ -7,7 +7,7 @@ voy=integer:=0
 i:integer:=0
 BEGIN
 read(sentense)
-    For i from 0 to sentense.length step=1
+    For i from 0 to sentense.length step=1 do
       IF (sentense[i]!=" ")THEN
         count+=1
       elseIF (words[i]=" ") THEN
@@ -17,7 +17,9 @@ read(sentense)
 
       END_IF
     END_FOR  
-    
+    write('number of sentense is:',sentense)
+    write('number of words is:',words)
+    write('number of voyels is:',voy)
 
    
 
